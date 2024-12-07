@@ -31,6 +31,6 @@ Hi there! I'm [Emmanuel Rock], a Data Analyst passionate about uncovering insigh
 ---
 
 ## Contact Me
-- **Email:** yourname@example.com  
+- **Email:** rockchinonyerem@yahoo.com  
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/Salvrezz)  
 - **GitHub:** [Your GitHub Profile](https://github.com/Salvrezz)
