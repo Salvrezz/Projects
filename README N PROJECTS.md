@@ -18,12 +18,12 @@ Hi there! I'm [Emmanuel Rock], a Data Analyst passionate about uncovering insigh
 - **Tools Used:** [PowerBI,DAX,POWER QUERY]  
 - **Outcome:** [To improve hospital management, enhance patient care, optimize resource allocation, and reduce costs]  
 
-### [Project 2: Email Campaign](https://app.powerbi.com/groups/me/reports/c8bd79ca-0841-4a36-afe9-ca055bc0b72b/0cec616a1051de0a8251?experience=power-bi)
+### [Project 2: Email Campaign](https://shorturl.at/tjIIQ)
 - **Description:** [Created an interactive dashboard for email marketing campaign performance metrics]  
 - **Tools Used:** [PowerBI,DAX]  
 - **Outcome:** [The analysis evaluates email campaign performance to optimize engagement, performance rates, and regional targeting strategies]  
 
-### [Project 3: Transportation Insight Dashboard](https://app.powerbi.com/groups/me/reports/d83cffea-99c8-42ae-9254-cfab7a468ac2/24f64468eae6d2e1d28c?language=en-US&experience=power-bi)
+### [Project 3: Transportation Insight Dashboard](https://shorturl.at/R5XRf)
 - **Description:** [Created an interactive dashboard for transportation performance metrics ]  
 - **Tools Used:** [PowerBI,DAX,POWER QUERY]  
 - **Outcome:** [The analysis identifies trip trends, revenue drivers, customer behavior, and operational opportunities for maximizing taxi service efficiency.]  
