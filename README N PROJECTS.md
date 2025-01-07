@@ -28,6 +28,20 @@ Hi there! I'm [Emmanuel Rock], a Data Analyst passionate about uncovering insigh
 - **Tools Used:** [PowerBI,DAX,POWER QUERY]  
 - **Outcome:** [The analysis identifies trip trends, revenue drivers, customer behavior, and operational opportunities for maximizing taxi service efficiency.]  
 
+### [Project 4: Supply Chain Analysis](https://shorturl.at/MaVD2)
+- **Description:** [A report of performances for a supplycahin]  
+- **Tools Used:** [PowerBI,DAX]  
+- **Outcome:** [Identify sales, revenue, effective transportation mode distribution]  
+
+
+)
+- **Description:** [Created an interactive dashboard for transportation performance metrics ]  
+- **Tools Used:** [PowerBI,DAX,POWER QUERY]  
+- **Outcome:** [The analysis identifies trip trends, revenue drivers, customer behavior, and operational opportunities for maximizing taxi service efficiency.]  
+
+
+
+
 ---
 
 ## Contact Me
