@@ -33,7 +33,6 @@ Hi there! I'm [Emmanuel Rock], a Data Analyst passionate about uncovering insigh
 - **Tools Used:** [PowerBI,DAX]  
 - **Outcome:** [Identify sales, revenue, effective transportation mode distribution])
   
-
 ## Contact Me
 - **Email:** rockchinonyerem@yahoo.com  
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/Salvrezz)  
