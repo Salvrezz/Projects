@@ -1,0 +1,70 @@
+Sub RemoveFuzzyDuplicateAddresses_ColumnC()
+
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    Dim rawText As String
+    Dim cleanText As String
+    Dim dict As Object
+
+    Set ws = ActiveSheet
+    Set dict = CreateObject("Scripting.Dictionary")
+
+    lastRow = ws.Cells(ws.Rows.Count, "C").End(xlUp).Row
+
+    For i = lastRow To 1 Step -1
+
+        rawText = ws.Cells(i, "C").Value
+
+        ' Trim leading/trailing spaces and remove invisible characters
+        rawText = Trim(rawText)
+        rawText = Replace(rawText, Chr(160), "")
+
+        ' Remove punctuation
+        rawText = Replace(rawText, ",", "")
+        rawText = Replace(rawText, ".", "")
+        rawText = Replace(rawText, "-", "")
+        rawText = Replace(rawText, "/", "")
+        rawText = Replace(rawText, "\", "")
+        rawText = Replace(rawText, "(", "")
+        rawText = Replace(rawText, ")", "")
+
+        ' Normalize common abbreviations
+        rawText = Replace(rawText, " ST ", " STREET ")
+        rawText = Replace(rawText, " RD ", " ROAD ")
+        rawText = Replace(rawText, " AVE ", " AVENUE ")
+        rawText = Replace(rawText, " CRES ", " CRESCENT ")
+        rawText = Replace(rawText, " CL ", " CLOSE ")
+        rawText = Replace(rawText, " LA ", " LANE ")
+        rawText = Replace(rawText, " JCT ", " JUNCTION ")
+        rawText = Replace(rawText, " BDG ", " BUILDING ")
+
+        rawText = Replace(rawText, " STR ", " STREET ")
+        rawText = Replace(rawText, " ST.", " STREET ")
+        rawText = Replace(rawText, " RD.", " ROAD ")
+
+        ' Clean multiple spaces
+        Do While InStr(rawText, "  ") > 0
+            rawText = Replace(rawText, "  ", " ")
+        Loop
+
+        ' Remove ALL spaces for final strict comparison
+        cleanText = Replace(rawText, " ", "")
+
+        ' Normalize case
+        cleanText = LCase(cleanText)
+
+        If cleanText <> "" Then
+            If dict.exists(cleanText) Then
+                ws.Rows(i).Delete
+            Else
+                dict.Add cleanText, True
+            End If
+        End If
+
+    Next i
+
+    MsgBox "Advanced fuzzy duplicates removed from Column C."
+
+End Sub
+
