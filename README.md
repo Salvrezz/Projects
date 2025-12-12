@@ -58,22 +58,22 @@ Used for:
 
 ## 📘 Featured Projects
 
-### [Project 1: Healthcare Data Analysis](https://ln.run/jXKtH)
+### [Project 1: Healthcare Data Analysis]
 - **Description:** [To identify key trends and correlations in hospital admissions, billing, and treatment outcomes]  
 - **Tools Used:** [PowerBI,DAX,POWER QUERY]  
 - **Outcome:** [To improve hospital management, enhance patient care, optimize resource allocation, and reduce costs]  
 
-### [Project 2: Email Campaign](https://ln.run/U8IJd)
+### [Project 2: Email Campaign]
 - **Description:** [Created an interactive dashboard for email marketing campaign performance metrics]  
 - **Tools Used:** [PowerBI,DAX]  
 - **Outcome:** [The analysis evaluates email campaign performance to optimize engagement, performance rates, and regional targeting strategies]  
 
-### [Project 3: Transportation Insight Dashboard](https://ln.run/XuCkn)
+### [Project 3: Transportation Insight Dashboard]
 - **Description:** [Created an interactive dashboard for transportation performance metrics ]  
 - **Tools Used:** [PowerBI,DAX,POWER QUERY,MSSQL]  
 - **Outcome:** [The analysis identifies trip trends, revenue drivers, customer behavior, and operational opportunities for maximizing taxi service efficiency.]  
 
-### [Project 4: Supply Chain Analysis](https://ln.run/_-uss)
+### [Project 4: Supply Chain Analysis]
 - **Description:** [A report of performances for a supplycahin]  
 - **Tools Used:** [PowerBI,DAX, MSSQL]  
 - **Outcome:** [Identify sales, revenue, effective transportation mode distribution])
