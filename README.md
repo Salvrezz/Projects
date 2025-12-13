@@ -1,4 +1,5 @@
 # 📊 Data Analytics Portfolio (Excel • Power BI • VBA)
+# Izuazu Rock Chibuike 
 
 Welcome to my Data Analytics Portfolio!  
 This repository contains projects built with **Microsoft Excel**, **Power BI**, and **VBA**.  
@@ -94,3 +95,5 @@ Used for:
 Thank you for visiting my portfolio!  
 Feel free to explore the projects and leave feedback.
 
+🔗 LinkedIn: https://linkedin.com/in/salvrezz
+🔗 GitHub: https://github.com/salvrezz
